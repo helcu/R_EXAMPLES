@@ -1,0 +1,13 @@
+@relation APROVECHAMIENTO
+@attribute Asistencia {No_asiste,Asiste}
+@attribute Participacion {Media,Alta,Baja}
+@attribute Aprovechamiento {Excelente,Bueno,Regular,Deficiente}
+@attribute Nota {Exento,Final,Extraordinario}
+@data
+No_asiste,Media,Excelente,Exento
+Asiste,Alta,Bueno,Exento
+No_asiste,Media,Bueno,Final
+No_asiste,Baja,Bueno,Final
+Asiste,Alta,Regular,Final
+Asiste,Baja,Deficiente,Extraordinario
+No_asiste,Media,Regular,Extraordinario
